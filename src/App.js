@@ -50,7 +50,7 @@ function App() {
           {/* <Route path="/" element={<TextForm showalert={showalert} heading="Formatter" />}/> */}
           {/* <Route path="/about" element={<About/>}/> */}
         {/* </Routes> */}
-        <TextForm/>
+        <TextForm showalert={showalert}/>
       </div>
     {/* </Router> */}
     </>
